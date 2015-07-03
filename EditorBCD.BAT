@@ -19,9 +19,11 @@ pause
 
 :Menu
 cls
-echo //****************\\
-echo //   Editor BCD   \\
-echo //****************\\
+echo ********************
+echo **                **
+echo **   Editor BCD   **
+echo **                **
+echo ********************
 echo.
 echo Selecciona una opcion
 echo.
@@ -75,8 +77,6 @@ goto :Menu
 
 :Ver
 cls
-echo asdasdasdasd
-bcdedit
 bcdedit | findstr description
 pause
 goto :Menu
